@@ -29,7 +29,7 @@ public class Pessoa {
         this.nome = nome;
     }
 
-    String imprimirDadosDaPessoa(int indice) {
-        return "O nome da pessoa é " + nome + " e a idade é " + idade + " e o documento é " + cpf + " e o índice é " + indice;
+    String imprimirDadosDaPessoa() {
+        return "O nome da pessoa é " + nome + " e a idade é " + idade + " e o documento é " + cpf;
     }
 }
